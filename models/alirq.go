@@ -168,5 +168,5 @@ func (a *AliRQ) sendToAPI(t []byte) {
 	}
 	defer res.Body.Close()
 
-	galaxylib.GalaxyLogger.Infoln(galaxylib.DefaultGalaxyTools.ResponseToString(res.Body))
+	//galaxylib.GalaxyLogger.Infoln(galaxylib.DefaultGalaxyTools.ResponseToString(res.Body))
 }
